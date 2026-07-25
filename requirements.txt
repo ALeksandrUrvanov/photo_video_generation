@@ -1,0 +1,38 @@
+# API и веб-сервер
+fastapi==0.115.12
+uvicorn[standard]==0.34.3
+pydantic==2.9.2
+
+# S3 хранилища (асинхронный)
+aioboto3==13.0.1
+
+# AI генерация через OpenRouter
+openai==1.57.4
+
+# Alibaba DashScope SDK для видео
+dashscope>=1.20.0
+
+# Обработка изображений
+Pillow==11.2.1
+
+# Работа с данными
+pandas==2.2.0
+openpyxl==3.1.2
+pyarrow==18.1.0
+
+# Telegram бот
+aiogram==3.15.0
+
+# DataMatrix сканер
+zxing-cpp==2.3.0
+
+# Утилиты
+python-dotenv==1.1.0
+aiohttp==3.10.11
+httpx==0.27.0
+
+# Тестирование
+pytest==7.4.0
+pytest-asyncio==0.21.0
+requests==2.32.3
+numpy~=1.26.4

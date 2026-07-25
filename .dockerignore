@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.cursor/
+
+# Логи
+logs/
+*.log
+
+# Тестовые данные (не нужны в продакшене)
+test_*.py
+photo_and_price/
+
+# База данных (загружается при старте)
+database/data/*.csv
+database/data/logs/
+
+# Git
+.git/
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Документация
+README.md
+*.md
+
+# Прочее
+.DS_Store
+.env.example
+
